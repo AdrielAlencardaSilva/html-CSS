@@ -1,0 +1,104 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+}
+header{
+    background-color: black;
+    color: rgb(242, 242, 67);
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+header > h1{
+    font-size: 2em;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: rgb(179, 179, 57);
+}
+h1#h1{
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+p#p{
+  text-align: justify;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 30px;
+}
+section.imagem{
+  background-image: url("gojo.png");
+  background-attachment: fixed;
+  background-position: center center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+  padding-bottom: 200px;
+   
+}
+section.imagem > h2{
+    background-color: rgba(0, 0, 0, 0.164);
+    width: 400px;
+    color: white;
+    font: bold;
+    font-size: 2.5em;
+    line-height: 1.2em;
+}
+article > h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+article > p{
+    text-align: justify;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+section.imagem02{
+    background-image: url("goku.png");
+    background-attachment: fixed;
+    background-position: top top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    padding-bottom: 400px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+p{
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+section.imagem03{
+    background-image: url("deku.png");
+    background-attachment: fixed;
+    background-position: top top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    padding-bottom: 400px;  
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+  
+}
+a:hover{
+    text-decoration: underline;
+}
+
+     
